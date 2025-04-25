@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: house-mark-tech-api
+    env: java
+    buildCommand: mvn clean install
+    startCommand: java -jar target/House_Mark_Tech-0.0.1-SNAPSHOT.jar
+    plan: free
